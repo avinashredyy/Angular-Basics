@@ -15,7 +15,7 @@
 
 
 ## Creating a new component (Branch 001-Creating-a-new-component)
-1. Angular CLI allows us to create a component using the following command:
+1. Angular CLI allows us to create a component using the following command: `ng generate componenent <component-name>` OR `ng g c <component-name>`
 
 
 ## Build
