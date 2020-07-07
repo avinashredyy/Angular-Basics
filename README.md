@@ -1,7 +1,7 @@
 # AngularBasics
 
 ## Requirements
-1. Install node.js from here (I ususally prefer the LTS version for its stability) -> https://nodejs.org/en/ . This gives you the ability to access npm.
+1. Install node.js from here (I ususally prefer the LTS version for its stability) -> [Node.js](https://nodejs.org/en/) . This gives you the ability to access npm.
 2. Install Angular CLI by running the following command in your terminal: `npm install -g @angular/cl`. This gives you the ability to access ng commands
 
 
