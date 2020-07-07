@@ -12,4 +12,11 @@ export class SecondComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  name: string = 'Avinash';
+  age: number = 27;
+
+  getAge() {
+    return this.age;
+  }
+
 }
