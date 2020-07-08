@@ -18,6 +18,9 @@
 1. Angular CLI allows us to create a component using the following command: `ng generate componenent <component-name>` OR `ng g c <component-name>`.
 2. Creating a component through the Angular CLI automatically imports it into `app.module.ts` file and also adds it to the declerations array.
 
+## Nesting a component within another component (Branch 002-Nesting-Components)
+1. We can nest one component inside another component by using its selector in the parent HTML file. For example we can use the first component inside the app component by using the first components selector likewise `<app-first-component></app-first-component>` in the app components HTML file.
+
 
 ## Build
 
