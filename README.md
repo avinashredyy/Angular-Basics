@@ -28,6 +28,14 @@
 2. First example, if we have a variable `x = 10`. We can display the value of x on the HTML page likewise: `{{ x }}`. It will display as `10` on the webpage.
 3. Second example, if we have a function named `getName()` which returns a string `avinash` upon execution. We can display the return value on the HTML page likewise: `{{ getName() }}`. It will display as `avinash` on the webpage.
 
+
+## Propert binding (Branch 004-Property-binding)
+1. Here we created another component which consists of a button. We add a `disabled` property to this button.
+2. We create a variable `addText = false` and then we create a `setTimeout()` function which sets `addText` to `true` after 2000 miliseconds in the TypeScript file.
+3. We bind the the `disabled` property of the button tag in the HTML to the `addText` variable in the TS file likewise: `[disabled]=!addText`
+4. Now we have binded the `addText` variable to the `disabled` property. 
+5. Initially the `addText` variable is false thus the button is disabled. After 2000ms the function within the setTimeout function is executed and `addText` is set to true and hence the button gets enabled
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
