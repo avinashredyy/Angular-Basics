@@ -35,6 +35,15 @@
 3. We bind the the `disabled` property of the button tag in the HTML to the `addText` variable in the TS file likewise: `[disabled]=!addText`
 4. Now we have binded the `addText` variable to the `disabled` property. 
 5. Initially the `addText` variable is false thus the button is disabled. After 2000ms the function within the setTimeout function is executed and `addText` is set to true and hence the button gets enabled
+6. Enclosing a property within`[]` specifies property binding. There are multiple properties available, `disabled` is just one of the many.
+
+
+## Event binding (Branch 005-Event-binding)
+1. Here we demonstrate event binding. First we create a variable with a string value in the TS file likewise: `exampleText = 'Original text!'`.
+2. We display the above string on the webpage using string interpolation. Then we create a function which modifies the text in the above variable when the button is clicked.
+3. This exectuion of the function when the event of a button click happens is called event binding. 
+4. We bind the function to a click of a button event likewise: `(click)="onButtonClick()"`. When user clicks the button, `onButtonClick()` function is executed.
+5. Enclosing an event within `()` specifies event binding. There are multiple events available, `click` is just one of the many.
 
 ## Build
 
