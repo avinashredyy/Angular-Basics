@@ -11,7 +11,7 @@ import { AddTextButtonComponent } from './add-text-button/add-text-button.compon
     AppComponent,
     FirstComponentComponent,
     SecondComponentComponent,
-    AddTextButtonComponent
+    AddTextButtonComponent,
   ],
   imports: [
     BrowserModule

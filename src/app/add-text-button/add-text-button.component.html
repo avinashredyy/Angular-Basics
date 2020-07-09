@@ -1,2 +1,7 @@
-<button [disabled]="!addText" (click)="onButtonClick()">Click to add text</button>
+<h3>Property binding and click event binding example:</h3>
+<button [disabled]="!addText" (click)="onButtonClick()">Click to modify text</button>
 <p>{{ exampleText }}</p>
+<hr>
+<h3>Event object usage example:</h3>
+<input type="text" (input)="onInput($event)">
+<p>{{ inputText }}</p>
