@@ -45,6 +45,11 @@
 4. We bind the function to a click of a button event likewise: `(click)="onButtonClick()"`. When user clicks the button, `onButtonClick()` function is executed.
 5. Enclosing an event within `()` specifies event binding. There are multiple events available, `click` is just one of the many.
 
+
+## Event object (Branch 006-Event-object)
+1. Demonstarated the use of $event object provided by Angular to access different properties. For example: `event.target.value` property which stores all the input value from the input field.
+2. Used the `(input)` event and binded it to `onInput()` function, which executes everytime an input is entered in the input field and displays it on the web page using string interpolation.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
