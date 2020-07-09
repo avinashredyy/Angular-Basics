@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AddTextButtonComponent implements OnInit {
 
   addText = false;
+  exampleText = 'Original text!';
 
   constructor() { 
     setTimeout(() => {
@@ -16,6 +17,10 @@ export class AddTextButtonComponent implements OnInit {
    }
 
   ngOnInit(): void {
+  }
+
+  onButtonClick = () => {
+    this.exampleText = 'Modified text after clickong on thebutton!';
   }
 
 }
