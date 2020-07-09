@@ -47,7 +47,7 @@
 
 
 ## Event object (Branch 006-Event-object)
-1. Demonstarated the use of $event object provided by Angular to access different properties. For example: `event.target.value` property which stores all the input value from the input field.
+1. Demonstarated the use of `$event` object provided by Angular to access different properties. For example: `event.target.value` property which stores all the input value from the input field.
 2. Used the `(input)` event and binded it to `onInput()` function, which executes everytime an input is entered in the input field and displays it on the web page using string interpolation.
 
 ## Build
