@@ -58,7 +58,11 @@
 
 
 ## Using ngIf directive (Branch 008-ngIf-directive)
-1. Demonstrated the use of ngIf directive to optionally show data on the DOM based on a boolean condition of a vraibale.
+1. Demonstrated the use of `ngIf` directive to optionally show data on the DOM based on a boolean condition of a vraibale.
+
+
+## Using else condition of ngIf directive (Branch 009-ngIf-with-else)
+1. Demonstrated the use of `else` condition of the `ngIf` directive by displaying the text on the `DOM` when `ngIf` is not set to `true`.
 
 ## Build
 
