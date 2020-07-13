@@ -30,7 +30,7 @@
 
 
 ## Propert binding (Branch 004-Property-binding)
-1. Here we created another component which consists of a button. We add a `disabled` property to this button.
+1. Here we created another component `add-text-button`, which consists of a button. We add a `disabled` property to this button.
 2. We create a variable `addText = false` and then we create a `setTimeout()` function which sets `addText` to `true` after 2000 miliseconds in the TypeScript file.
 3. We bind the the `disabled` property of the button tag in the HTML to the `addText` variable in the TS file likewise: `[disabled]=!addText`
 4. Now we have binded the `addText` variable to the `disabled` property. 
