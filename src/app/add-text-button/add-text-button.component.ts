@@ -9,6 +9,8 @@ export class AddTextButtonComponent implements OnInit {
 
   addText = false;
   exampleText = 'Original text!';
+  inputText = '';
+  ngModelInputText = '';
 
   constructor() { 
     setTimeout(() => {
@@ -20,7 +22,11 @@ export class AddTextButtonComponent implements OnInit {
   }
 
   onButtonClick = () => {
-    this.exampleText = 'Modified text after clickong on thebutton!';
+    this.exampleText = 'Modified text after clicking on the button!';
+  }
+
+  onInput = (event: any) => {
+    this.inputText = event.target.value;
   }
 
 }
