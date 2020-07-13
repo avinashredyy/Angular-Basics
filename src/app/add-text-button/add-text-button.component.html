@@ -9,3 +9,7 @@
 <h3>Two-way binding example using ngModel:</h3>
 <input type="text" [(ngModel)]='ngModelInputText'>
 <p>{{ ngModelInputText }}</p>
+<hr>
+<h3>ngIf example: Displays the text  below only if the below button is clicked</h3>
+<button  (click)="onButtonClickForNgIf()">Click to modify text</button>
+<p *ngIf='showNgIfText'>{{ ngIfExampleText }}</p>
