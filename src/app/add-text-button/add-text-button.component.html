@@ -5,3 +5,7 @@
 <h3>Event object usage example:</h3>
 <input type="text" (input)="onInput($event)">
 <p>{{ inputText }}</p>
+<hr>
+<h3>Two-way binding example using ngModel:</h3>
+<input type="text" [(ngModel)]='ngModelInputText'>
+<p>{{ ngModelInputText }}</p>

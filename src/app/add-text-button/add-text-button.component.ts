@@ -10,6 +10,7 @@ export class AddTextButtonComponent implements OnInit {
   addText = false;
   exampleText = 'Original text!';
   inputText = '';
+  ngModelInputText = '';
 
   constructor() { 
     setTimeout(() => {
