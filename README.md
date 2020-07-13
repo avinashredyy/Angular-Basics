@@ -53,7 +53,7 @@
 
 ## Two-way Databinding (Branch 007-Two-way-databinding)
 1. Demonstrated the usage of two way databinding. First we need to import the `FormsModule` from `@angular/forms` into the `app.module.ts` file in order to make this feature available to use likewise: `import { FormsModule } from '@angular/forms';` and then add FormsModule to the `imports[]` array.
-2. In two way databinding we basically attach a variable to a particular property. If we have a variable name ` var inputText`, we attach `ngModel` to it likewise: [(ngModel)]='inputText'.
+2. In two way databinding we basically attach a variable to a particular property. If we have a variable name ` var inputText`, we attach `ngModel` to it likewise: `[(ngModel)]='inputText'`.
 3. In the example above, whatever input is provided by the user, it will be saved to the variable automatically because of using `ngModel`.
 
 ## Build
