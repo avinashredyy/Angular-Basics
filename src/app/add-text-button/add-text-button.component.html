@@ -12,4 +12,7 @@
 <hr>
 <h3>ngIf example: Displays the text  below only if the below button is clicked</h3>
 <button  (click)="onButtonClickForNgIf()">Click to modify text</button>
-<p *ngIf='showNgIfText'>{{ ngIfExampleText }}</p>
+<p *ngIf='showNgIfText; else showNgIfTextFalse'>{{ ngIfExampleText }}</p>
+<ng-template #showNgIfTextFalse>
+    <p>Else part of ngIf</p>
+</ng-template>
