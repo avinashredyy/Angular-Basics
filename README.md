@@ -56,6 +56,10 @@
 2. In two way databinding we basically attach a variable to a particular property. If we have a variable name ` var inputText`, we attach `ngModel` to it likewise: `[(ngModel)]='inputText'`.
 3. In the example above, whatever input is provided by the user, it will be saved to the variable automatically because of using `ngModel`.
 
+
+## Using ngIf directive (Branch 008-ngIf-directive)
+1. Demonstrated the use of ngIf directive to optionally show data on the DOM based on a boolean condition of a vraibale.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.

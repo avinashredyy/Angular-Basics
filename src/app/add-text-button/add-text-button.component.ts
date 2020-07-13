@@ -11,6 +11,8 @@ export class AddTextButtonComponent implements OnInit {
   exampleText = 'Original text!';
   inputText = '';
   ngModelInputText = '';
+  showNgIfText = false;
+  ngIfExampleText = 'ngIf example text!';
 
   constructor() { 
     setTimeout(() => {
@@ -23,6 +25,10 @@ export class AddTextButtonComponent implements OnInit {
 
   onButtonClick = () => {
     this.exampleText = 'Modified text after clicking on the button!';
+  }
+
+  onButtonClickForNgIf = () => {
+    this.showNgIfText = true;
   }
 
   onInput = (event: any) => {
